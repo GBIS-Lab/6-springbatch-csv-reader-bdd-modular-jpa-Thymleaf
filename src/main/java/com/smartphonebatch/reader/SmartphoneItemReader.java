@@ -21,7 +21,7 @@ public class SmartphoneItemReader extends FlatFileItemReader<Smartphone> {
     private String filePath;
 
     public SmartphoneItemReader() {
-        // Ne fais rien ici pour éviter d'empêcher Spring de créer le bean
+        // Vide pour éviter d'empêcher Spring de créer le bean
     }
 
     @PostConstruct
